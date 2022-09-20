@@ -1,0 +1,112 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+ body{
+  background-color: #730202;
+  font-family: 'Lato', sans-serif;
+
+   }
+
+   main {
+		background-attachment: scroll, scroll, scroll, fixed;
+		background-color: #730202;
+    /* background-image: url(../img/bottles.jpg); */
+		/* background-image: url("../../images/sea.jpg"); */
+		/* background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg"); */
+		background-position: bottom left, bottom right, top left, top center;
+		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+		background-size: 25em, 25em, auto, cover;
+		color: #F2B705;
+		cursor: default;
+		padding: 6em 0;
+		text-align: center;
+	}
+
+  h1{
+  font-size: 3rem;
+  padding: 1rem 0rem;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  }
+
+img{
+  display: block;
+  margin: 0 auto;
+  width: 50%  ;
+
+}
+
+#suggestionList{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+li{
+  list-style-type: none;
+}
+
+.drink{
+flex-basis: 33%;
+}
+
+li :link{
+  color: #F2B705;
+}
+
+li :visited{
+  color: #F2B705;
+} 
+
+li :hover{
+  color: #F28705;
+}
+
+li :active{
+  color: #F28705
+}
+
+select{
+  color: #F20505;
+    font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  line-height: 1.75em;
+}
+
+
+button{
+  border: solid 1px;
+  border-radius: 0;
+  color: #F20505;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.2em;
+  font-weight: 900;
+  letter-spacing: 2px;
+  min-width: 18em;
+  padding: 0 0.75em;
+  line-height: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
